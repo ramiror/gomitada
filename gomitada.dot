@@ -1,0 +1,84 @@
+digraph {
+    rankdir=LR
+    mari [label="La abuela Mary"]
+    Gregorio
+    Pedro
+    pm [label="Pepe (mellizo)"]
+    Paco
+    Encarna
+    Carmen
+    Mercedes
+    Gregorio -> Marime
+    Gregorio -> Pepito
+    Pedro -> Pedrito
+    Pedro -> Silvia
+    pm -> Elenita
+    Paco -> Graciela -> Heidi
+    Paco -> Felito
+    Encarna -> Isabel
+    Encarna -> Encarnita
+    Carmen_Mercedes [label="Carmen"]
+    Mercedes -> Carmen_Mercedes -> Paula
+    moni [label="Mónica"]
+    agus [label="Agustín"]
+    mari -> agus
+    mari -> Pepe
+    mari -> Carlos
+    mari -> moni
+    agus -> Lorena
+    agus -> Ramiro -> Francesca
+    agus -> Ezequiel
+    Maria_Agus [label="María"]
+    agus -> Maria_Agus
+    moni -> Guadalupe
+    moni -> Gonzalo
+    moni -> Macarena
+    piqui [label="María Laura"]
+    Carlos -> piqui
+    Carlos -> Federico
+    Pepe -> Marina
+    Pepe -> Ariel -> Nacho
+    Ezequiel -> Manuel
+    Ezequiel -> Lucas
+    Felito -> Natalia -> Naomi
+    Felito -> Pablo -> Arturo
+    piqui -> Emilia
+    Ramiro_Piqui [label="Ramiro"]
+    piqui -> Ramiro_Piqui
+    Agus_Fede [label="Agustín"]
+    Federico -> Agus_Fede
+    sofi [label="Sofía"]
+    Federico -> sofi
+    Tomas [label="Tomás"]
+    Marina -> Tomas
+    Marina -> Mateo
+    Pepito -> Santiago
+    Jose [label="José"]
+    Pepito -> Jose
+    Pepito -> Amparito
+    Elenita -> Jorgelina
+    AnaCielo [label="Ana Cielo"]
+    Elenita -> AnaCielo
+    Elenita -> Franco
+    Gonzalo_Jorgelina [label="Gonzalo"]
+    Agus_Jorgelina [label="Agustín"]
+    Jorgelina -> Agus_Jorgelina
+    Jorgelina -> Gonzalo_Jorgelina
+    Sofia_AnaCielo [label="Sofía"]
+    Francesca_AnaCielo [label="Francesca"]
+    AnaCielo -> Sofia_AnaCielo
+    AnaCielo -> Francesca_AnaCielo
+    AnaCielo -> Isabella
+    AnaCielo -> Giovanna
+    Franco -> Valentino
+    Benja [label="Benjamín"]
+    Franco -> Benja
+    Franco -> Fausto
+    macel [label="María Celeste"]
+    guada_pedrito [label="Guadalupe"]
+    Pedrito -> macel
+    Pedrito -> guada_pedrito
+    marina_silvia [label="Marina"]
+    Silvia -> marina_silvia
+    macel -> Ada
+}
