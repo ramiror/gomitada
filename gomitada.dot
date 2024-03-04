@@ -20,13 +20,14 @@ digraph {
     Encarna -> Encarnita
     Carmen_Mercedes [label="Carmen"]
     Mercedes -> Carmen_Mercedes -> Paula
-    Isabel -> Natalia
+    natalia_isabel [label="Natalia"]
+    Isabel -> natalia_isabel
     Isabel -> Diana
-    Natalia -> Anastacia
-    Natalia -> Luka
-    Natalia -> Simeon
+    natalia_isabel -> Anastacia
+    natalia_isabel -> Luka
+    natalia_isabel -> Simeon
     kiki [label="Katarina"]
-    Natalia -> kiki
+    natalia_isabel -> kiki
     Diana -> Sol
     Diana -> Selena
     moni [label="Mónica"]
