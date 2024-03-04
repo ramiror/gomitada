@@ -15,10 +15,20 @@ digraph {
     pm -> Elenita
     Paco -> Graciela -> Heidi
     Paco -> Felito
+    Isabel [label="María Isabel"]
     Encarna -> Isabel
     Encarna -> Encarnita
     Carmen_Mercedes [label="Carmen"]
     Mercedes -> Carmen_Mercedes -> Paula
+    Isabel -> Natalia
+    Isabel -> Diana
+    Natalia -> Anastacia
+    Natalia -> Luka
+    Natalia -> Simeon
+    kiki [label="Katarina"]
+    Natalia -> kiki
+    Diana -> Sol
+    Diana -> Selena
     moni [label="Mónica"]
     agus [label="Agustín"]
     mari -> agus
@@ -76,8 +86,10 @@ digraph {
     Franco -> Fausto
     macel [label="María Celeste"]
     guada_pedrito [label="Guadalupe"]
+    pedro_pedrito [label="Pedro"]
     Pedrito -> macel
     Pedrito -> guada_pedrito
+    Pedrito -> pedro_pedrito
     marina_silvia [label="Marina"]
     Silvia -> marina_silvia
     macel -> Ada
