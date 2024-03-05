@@ -106,4 +106,6 @@ digraph {
     marina_silvia [label="Marina"]
     Silvia -> marina_silvia
     macel -> Ada
+    eze_jose [label="Ezequiel"]
+    Jose -> eze_jose
 }
