@@ -19,7 +19,8 @@ digraph {
     Encarna -> Isabel
     Encarna -> Encarnita
     Carmen_Mercedes [label="Carmen"]
-    Mercedes -> Carmen_Mercedes -> Paula
+    sebas [label="Sebastián"]
+    Mercedes -> Carmen_Mercedes -> Paula -> sebas
     natalia_isabel [label="Natalia"]
     Isabel -> natalia_isabel
     Isabel -> Diana
