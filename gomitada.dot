@@ -1,13 +1,24 @@
 digraph {
     rankdir=LR
-    mari [label="La abuela Mary"]
+    Hermanos [shape="box"]
+    Primos [shape="box"]
+    "Primos Segundos" [shape="box"]
+    "Primos Terceros" [shape="box"]
+    Hermanos -> Primos -> "Primos Segundos" -> "Primos Terceros"
     Gregorio
     Pedro
     pm [label="Pepe (mellizo)"]
+    mari [label="María (melliza)"]
     Paco
     Encarna
     Carmen
     Mercedes
+
+    {
+        rank=same
+        Hermanos -> Gregorio -> Pedro -> pm -> mari -> Paco -> Encarna -> Carmen -> Mercedes [style="invis"]
+    }
+
     Gregorio -> Marime
     Gregorio -> Pepito
     Pedro -> Pedrito
