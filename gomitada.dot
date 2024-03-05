@@ -9,6 +9,7 @@ digraph {
     Pedro
     pm [label="Pepe (mellizo)"]
     mari [label="María (melliza)"]
+    Trinidad
     Paco
     Encarna
     Carmen
@@ -16,7 +17,7 @@ digraph {
 
     {
         rank=same
-        Hermanos -> Gregorio -> Pedro -> pm -> mari -> Paco -> Encarna -> Carmen -> Mercedes [style="invis"]
+        Hermanos -> Gregorio -> Pedro -> pm -> mari -> Trinidad -> Paco -> Encarna -> Carmen -> Mercedes [style="invis"]
     }
 
     Gregorio -> Marime
